@@ -1,0 +1,75 @@
+
+#heading {
+  color: darkblue;
+  text-align: center;
+  font-family: 'Lobster', cursive;
+  color: darkblue;
+}
+
+h1 {
+  font-size: 900%;
+}
+
+h2 {
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+}
+
+h5 {
+  font-family: 'Pacifico', cursive;
+}
+
+body{
+  background-color: lightcoral;
+}
+.container {
+  text-align: center;
+  background-color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 10px;
+  font-family: 'Playfair Display', serif;
+  padding-top: 30px;
+  border-style: solid;
+  border-width: 5px;
+  border-color: royalblue;
+}
+
+img{
+  width: 100%;
+  height: auto;
+  -webkit-transition: all 1s ease-in-out;
+  -moz-transition: all 1s ease-in-out;
+  -ms-transition: all 1s ease-in-out;
+  -o-transition: all 1s ease-in-out;
+  transition: all 1s ease-in-out;
+
+}
+
+img:hover {
+  -webkit-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+
+#navigationbar {
+	margin: .5em 0em;
+	border-top-style: solid;
+	border-bottom-style: solid;
+  border-color: royalblue;
+	padding-top: 1em;
+	padding-bottom: 2em;
+  background-color: darkblue;
+  font-family: 'Dosis', sans-serif;
+
+}
+
+.menu {
+	float: left;
+	text-align: center;
+	margin: 0em;
+	width: 10%;
+	padding-left: 14em;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+}
